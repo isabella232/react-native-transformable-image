@@ -1,6 +1,6 @@
 {
   "name": "react-native-transformable-image",
-  "version": "0.0.18",
+  "version": "0.0.18-opi",
   "description": "",
   "main": "library/TransformableImage.js",
   "scripts": {
@@ -22,6 +22,6 @@
     "prop-types": "*"
   },
   "dependencies": {
-    "react-native-view-transformer": "0.0.28"
+    "react-native-view-transformer": "git+https://github.com/objectpartners/react-native-view-transformer.git"
   }
 }
