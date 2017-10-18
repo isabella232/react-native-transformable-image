@@ -1,25 +1,26 @@
 {
-  "name": "Demo",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
+	"name": "Demo",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest"
-  },
-  "dependencies": {
-	"react": "16.0.0-alpha.12",
-	"react-native": "0.48.4",
-	"react-native-windows": "^0.48.0-rc.9",
-	"react-native-transformable-image": "git+https://github.com/objectpartners/react-native-transformable-image.git"
-  },
-  "devDependencies": {
-	"babel-jest": "21.2.0",
-	"babel-preset-react-native": "4.0.0",
-	"jest": "21.2.1",
-	"react-test-renderer": "16.0.0-alpha.12",
-	"rnpm-plugin-windows": "^0.2.8"
-  },
-  "jest": {
-	"preset": "react-native"
-  }
+	},
+	"dependencies": {
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.48.4",
+		"react-native-root-modal": "git+https://github.com/objectpartners/react-native-root-modal.git",
+		"react-native-transformable-image": "git+https://github.com/objectpartners/react-native-transformable-image.git",
+		"react-native-windows": "^0.48.0-rc.9"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0-alpha.12",
+		"rnpm-plugin-windows": "^0.2.8"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
 }
